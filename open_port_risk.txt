@@ -1,0 +1,13 @@
+📘 Summary
+Port	Service	Risk Level	Common Risks
+21	FTP	High	Plain-text creds, brute force
+22	SSH	Medium	Weak auth, outdated versions
+23	Telnet	Very High	No encryption
+25	SMTP	Medium	Spam abuse, enumeration
+53	DNS	High	Spoofing, cache poisoning
+80	HTTP	High	Web exploits
+443	HTTPS	Medium	Weak TLS, cert issues
+139/445	SMB	Very High	RCE, lateral movement
+3306	MySQL	High	DB compromise
+3389	RDP	Very High	Bruteforce, RCE
+8080	Web	Medium	Admin exposure, outdated frameworks
